@@ -1,28 +1,32 @@
 # fontend-starter-kit
 My Typescript+React+Express start kit with Webpack+Tslint+Jest
 
+More branches will be created for different sets of tools.
+
+This branch is for build single page application.
 
 ## Building and running on localhost
 
-First install dependencies:
+### 1. First install dependencies:
 
 ```sh
 npm install
 ```
 
-To run in hot module reloading mode:
+### 2(0). To run in hot module reloading mode:
 
 ```sh
 npm start
 ```
+Then open your browser and enter <a href='http://localhost:8080'>http://localhost:8080</a>
 
-To create a production build:
+### 2(1). To create a production build:
 
 ```sh
 npm run build-prod
 ```
 
-To create a development build:
+### 2(2). To create a development build:
 
 ```sh
 npm run build-dev

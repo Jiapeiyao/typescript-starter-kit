@@ -2,7 +2,8 @@
 .cache/
 coverage/
 dist/*
-!dist/index.html
+release/*
+# !dist/index.html
 node_modules/
 *.log
 
