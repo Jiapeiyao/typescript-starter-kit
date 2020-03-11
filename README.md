@@ -1,9 +1,9 @@
 # fontend-starter-kit
 My Typescript+React+Express start kit with Webpack+Tslint+Jest
 
-More branches will be created for different sets of tools.
+More branches will be created for different sets of toolkits.
 
-This branch is for build single page application.
+This branch is for building a single page application.
 
 ## Building and running on localhost
 
