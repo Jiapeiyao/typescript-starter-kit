@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { hot } from 'react-hot-loader/root';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(
+    React.createElement(hot(App)),
+    document.getElementById('app')
+);
 
 export default function App() {
     const containerStyle: React.CSSProperties = {
@@ -12,7 +16,7 @@ export default function App() {
         minHeight: 540,
         top: 0,
         left: 0,
-        display: "flex",
+        display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         backgroundImage: 'linear-gradient(to right, #310524, violet)',
