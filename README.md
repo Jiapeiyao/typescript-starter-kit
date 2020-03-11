@@ -36,6 +36,15 @@ npm run build-dev
 
 Open the file `dist/index.html` in your browser
 
+## Make use of the starter kit
+1. Download this project
+2. Create your project folder, then
+    ```sh
+    git init
+    ``` 
+3. Copy all the files of this start kit to your project folder
+4. Remember to change the project name and description in ```package.json```
+
 ## Credits
 
 Made with [createapp.dev](https://createapp.dev/)
