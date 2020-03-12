@@ -43,8 +43,9 @@ Open the file `dist/index.html` in your browser
     git init
     ``` 
 3. Copy all the files of this start kit to your project folder
-4. Remember to change the project name and description in ```package.json```
+4. Remember to change the project name, description, and etc in ```package.json```
 
 ## Credits
 
 Made with [createapp.dev](https://createapp.dev/)
+
