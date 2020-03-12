@@ -61,9 +61,6 @@ const config = {
         use: [
           {
             loader: 'url-loader',
-            // options: {
-            //   mimetype: 'image/png'
-            // }
           }
         ]
       }
