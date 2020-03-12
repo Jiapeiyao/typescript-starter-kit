@@ -57,17 +57,13 @@ const config = {
         ]
       },
       {
-        test: /\.svg$/,
-        use: 'file-loader'
-      },
-      {
-        test: /\.png$/,
+        test: /\.(png|svg)$/,
         use: [
           {
             loader: 'url-loader',
-            options: {
-              mimetype: 'image/png'
-            }
+            // options: {
+            //   mimetype: 'image/png'
+            // }
           }
         ]
       }
