@@ -33,7 +33,14 @@ const config = {
               importLoaders: 1
             }
           },
-          'postcss-loader'
+          {
+            loader: 'postcss-loader',
+            options: {
+              config: {
+                path: './postcss.config.js'
+              },
+            },
+          },
         ],
         exclude: /\.module\.css$/
       },
@@ -48,7 +55,14 @@ const config = {
               modules: true
             }
           },
-          'postcss-loader'
+          {
+            loader: 'postcss-loader',
+            options: {
+              config: {
+                path: './postcss.config.js'
+              },
+            },
+          },
         ],
         include: /\.module\.css$/
       },

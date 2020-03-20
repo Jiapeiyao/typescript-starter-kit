@@ -1,18 +1,5 @@
 import React from 'react';
-
-const containerStyle: React.CSSProperties = {
-    position: 'absolute',
-    width: '100vw',
-    height: '100vh',
-    minWidth: 960,
-    minHeight: 540,
-    top: 0,
-    left: 0,
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundImage: 'linear-gradient(to right, #003366, #669999)',
-};
+import './Hello.css';
 
 const textStyle: React.CSSProperties = {
     color: 'white',
@@ -22,9 +9,9 @@ const textStyle: React.CSSProperties = {
     fontFamily: 'Arial'
 };
 
-export default function Hello() {
+export default function Hello(): JSX.Element {
     return (
-        <div style={containerStyle}>
+        <div className={'hello-container'}>
             <div style={textStyle}>Fontend Starter Kit</div>
         </div>
     );

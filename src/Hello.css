@@ -1,0 +1,13 @@
+.hello-container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    min-width: 960;
+    min-height: 540;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #003366, #669999);
+}
