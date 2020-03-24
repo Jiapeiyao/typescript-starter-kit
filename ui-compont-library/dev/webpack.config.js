@@ -8,11 +8,11 @@ const config = {
     './src/index.tsx'
   ],
   output: {
-    path: path.resolve(__dirname, '..', 'dist'),
+    path: path.resolve(__dirname, '.', 'dist'),
     filename: '[name].[contenthash].js'
   },
   devServer: {
-    contentBase: '../dist'
+    contentBase: './dist'
   },
   module: {
     rules: [

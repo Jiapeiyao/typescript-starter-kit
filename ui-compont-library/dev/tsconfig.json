@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        // "skipDefaultLibCheck": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "es6",
+        "allowJs": true,
+        "jsx": "react",
+        "noEmit": true,
+        "allowSyntheticDefaultImports": true,
+        "alwaysStrict": true,
+        "experimentalDecorators": true,
+        "downlevelIteration": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "lib": [
+            "DOM", "esnext"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "@utils/*": ["./src/utils/*"],
+            "@components/*": ["./src/components/*"],
+            "@images/*": ["./public/images/*"],
+        }
+    },
+    "include": [
+        "./src/**/*", "../src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
