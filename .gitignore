@@ -1,10 +1,9 @@
 
 .cache/
 coverage/
-dist/*
-release/*
+release
 # !dist/index.html
-node_modules/
+node_modules
 *.log
 
 # OS generated files
@@ -15,3 +14,7 @@ node_modules/
 .Trashes
 ehthumbs.db
 Thumbs.db
+dist
+build
+out
+release
