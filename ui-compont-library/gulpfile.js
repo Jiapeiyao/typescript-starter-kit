@@ -1,10 +1,22 @@
-var gulp = require("gulp");
-var ts = require("gulp-typescript");
-var tsProject = ts.createProject("tsconfig.json");
+const gulp = require("gulp");
+const ts = require("gulp-typescript");
+const sourcemaps = require("gulp-sourcemaps");
 
-gulp.task("default", function () {
-    return tsProject
+const tsProject = ts.createProject("tsconfig.json");
+
+gulp.task("default", gulp.series(compileTS, copyLess));
+
+async function compileTS() {
+    const compiledFiles = tsProject
         .src()
-        .pipe(tsProject())
-        .js.pipe(gulp.dest("dist"));
-});
+        .pipe(sourcemaps.init())
+        .pipe(tsProject());
+    return [
+        compiledFiles.js.pipe(sourcemaps.write('.')).pipe(gulp.dest("dist")),
+        compiledFiles.dts.pipe(gulp.dest("dist"))
+    ];
+}
+
+async function copyLess() {
+    gulp.src('src/**/*.less').pipe(gulp.dest("dist"));
+}
