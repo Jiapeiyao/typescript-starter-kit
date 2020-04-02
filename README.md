@@ -1,6 +1,9 @@
 # fontend-starter-kit
 My Typescript+React+Express+Webpack+Tslint+Jest Frontend start kits.
 
+## Prerequisite
+install Nodejs and configurate environment variable $PATH.
+
 ## Use as Coding Playground (single page app / ui component library)
 1. Enter a folder 
 2. ```npm install```
