@@ -1,13 +1,18 @@
 # fontend-starter-kit
 My Typescript+React+Express+Webpack+Tslint+Jest Frontend start kits.
 
+## Use as Coding Playground (single page app / ui component library)
+1. Enter a folder 
+2. ```npm install```
+3. ```npm start```
+
 ## Make use of the starter kit
 1. Download this project or subset of the start kits
 2. Create your project folder, then
     ```sh
     git init
     ``` 
-3. Copy all the files from the fold that matches your scenario to your project folder
+3. Copy all the files from the folder that matches your scenario to your project folder
 4. Remember to change the project name, description, and etc in ```package.json```
 
 ## Credits
