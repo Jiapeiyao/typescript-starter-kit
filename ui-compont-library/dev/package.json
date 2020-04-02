@@ -4,7 +4,6 @@
   "description": "ui-library-dev",
   "main": "dist/bundle.js",
   "scripts": {
-    "test": "jest",
     "clean": "rm -rf release && rm -rf dist",
     "start": "webpack-dev-server --config webpack.config.js --hot --mode development --open"
   },

@@ -14,7 +14,8 @@
   },
   "homepage": "https://github.com/Jiapeiyao/fontend-starter-kit#readme",
   "scripts": {
-    "build": "gulp"
+    "build": "gulp",
+    "start": "npm run build && cd dev && npm start"
   },
   "devDependencies": {
     "@types/react": "^16.9.0",
