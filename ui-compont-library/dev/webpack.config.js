@@ -75,15 +75,8 @@ const config = {
         ]
       },
       {
-        test: /\.png|svg$/,
-        use: [
-          {
-            loader: 'url-loader',
-            options: {
-              mimetype: 'image/png'
-            }
-          }
-        ]
+        test: /\.png|svg|gif|jpg$/,
+        use: 'url-loader',
       }
     ]
   },
@@ -94,7 +87,7 @@ const config = {
       '.js'
     ],
     alias: {
-      // 'react-dom': '@hot-loader/react-dom'
+      'react-dom': '@hot-loader/react-dom'
     }
   },
   plugins: [

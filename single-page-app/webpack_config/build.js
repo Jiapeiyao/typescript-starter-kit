@@ -67,14 +67,25 @@ const config = {
         use: [
           'style-loader',
           'css-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              config: {
+                path: './postcss.config.js'
+              },
+            },
+          },
           'less-loader'
         ]
       },
       {
-        test: /\.(png|svg)$/,
+        test: /\.(png|svg|jpg|gif)$/,
         use: [
           {
             loader: 'url-loader',
+            options: {
+              limit: 10000
+            }
           }
         ]
       }
