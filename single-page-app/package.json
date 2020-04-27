@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jiapeiyao/fontend-starter-kit.git"
+    "url": "git+https://github.com/Jiapeiyao/typescript-starter-kit.git"
   },
   "author": "Jiapeiyao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Jiapeiyao/fontend-starter-kit/issues"
+    "url": "https://github.com/Jiapeiyao/typescript-starter-kit/issues"
   },
-  "homepage": "https://github.com/Jiapeiyao/fontend-starter-kit#readme",
+  "homepage": "https://github.com/Jiapeiyao/typescript-starter-kit#readme",
   "dependencies": {
     "express": "^4.17.1",
     "react": "^16.9.0",

@@ -1,16 +1,16 @@
 {
-  "name": "fontend-starter-kit",
+  "name": "typescript-starter-kit",
   "version": "1.0.0",
   "description": "My Typescript+React+Express start kit with Webpack+Tslint+Jest",
   "main": "release/bundle.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jiapeiyao/fontend-starter-kit.git"
+    "url": "git+https://github.com/Jiapeiyao/typescript-starter-kit.git"
   },
   "author": "Jiapeiyao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Jiapeiyao/fontend-starter-kit/issues"
+    "url": "https://github.com/Jiapeiyao/typescript-starter-kit/issues"
   },
-  "homepage": "https://github.com/Jiapeiyao/fontend-starter-kit#readme"
+  "homepage": "https://github.com/Jiapeiyao/typescript-starter-kit#readme"
 }

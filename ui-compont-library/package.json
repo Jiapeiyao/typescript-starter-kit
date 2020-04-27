@@ -5,14 +5,14 @@
   "main": "release/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jiapeiyao/fontend-starter-kit.git"
+    "url": "git+https://github.com/Jiapeiyao/typescript-starter-kit.git"
   },
   "author": "Jiapeiyao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Jiapeiyao/fontend-starter-kit/issues"
+    "url": "https://github.com/Jiapeiyao/typescript-starter-kit/issues"
   },
-  "homepage": "https://github.com/Jiapeiyao/fontend-starter-kit#readme",
+  "homepage": "https://github.com/Jiapeiyao/typescript-starter-kit#readme",
   "scripts": {
     "build": "gulp",
     "start": "npm run build && cd dev && npm start"

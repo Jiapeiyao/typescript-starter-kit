@@ -1,4 +1,4 @@
-# fontend-starter-kit
+# typescript-starter-kit
 My Typescript+React+Express+Webpack+Tslint+Jest Frontend start kits.
 
 ## Prerequisite
