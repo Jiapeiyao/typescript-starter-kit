@@ -6,9 +6,9 @@
   "scripts": {
     "test": "jest",
     "clean": "rm -rf release && rm -rf dist",
-    "build-dev": "webpack -d --mode development --config webpack_config/dev.js",
-    "build-prod": "webpack -p --mode production --config webpack_config/build.js",
-    "start": "webpack-dev-server --config webpack_config/dev.js --hot --mode development --open"
+    "build-dev": "webpack -d --mode development --config webpack.config.js",
+    "build-prod": "webpack -p --mode production --config webpack.config.js",
+    "start": "webpack-dev-server --config webpack.config.js --hot --mode development --open"
   },
   "repository": {
     "type": "git",
