@@ -5,6 +5,6 @@ import Hello from './Hello';
 import './themes/default/index.less';
 
 ReactDOM.render(
-    React.createElement(hot(Hello)),
-    document.getElementById('app')
+  React.createElement(hot(Hello)),
+  document.getElementById('app')
 );
