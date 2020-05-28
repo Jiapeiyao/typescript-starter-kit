@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/Jiapeiyao/fontend-starter-kit/issues"
   },
-  "homepage": "https://github.com/Jiapeiyao/fontend-starter-kit#readme"
+  "homepage": "https://github.com/Jiapeiyao/fontend-starter-kit#readme",
+  "dependencies": {},
+  "devDependencies": {
+  }
 }

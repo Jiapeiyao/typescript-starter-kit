@@ -6,5 +6,5 @@ import './themes/default/index.less';
 
 ReactDOM.render(
   React.createElement(hot(Hello)),
-  document.getElementById('app')
+  document.getElementById('app'),
 );
