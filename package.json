@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/Jiapeiyao/typescript-starter-kit/issues"
   },
-  "homepage": "https://github.com/Jiapeiyao/typescript-starter-kit#readme"
+  "homepage": "https://github.com/Jiapeiyao/typescript-starter-kit#readme",
+  "dependencies": {},
+  "devDependencies": {
+  }
 }
